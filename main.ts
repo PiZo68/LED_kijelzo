@@ -15,11 +15,11 @@ basic.forever(function () {
     }
     magassag = randint(0, 4)
     for (let index = 0; index <= magassag; index++) {
-        led.plot(2, 4 - index)
+        led.plot(3, 4 - index)
     }
     magassag = randint(0, 4)
     for (let index = 0; index <= magassag; index++) {
-        led.plot(2, 4 - index)
+        led.plot(4, 4 - index)
     }
     basic.pause(50)
 })
